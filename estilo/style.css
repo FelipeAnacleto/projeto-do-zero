@@ -20,7 +20,7 @@ html, body {
 }
 
 header {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;
 }
@@ -38,6 +38,10 @@ header > p {
     text-align: center;
     font-family: var(--font1);
     
+}
+
+#atenção {
+    color: #D91604;
 }
 
 .links {
@@ -121,7 +125,7 @@ section#img02 {
 }
 
 section#img03 {
-    background-image: url('../imagens/dog01.jpg');
+    background-image: url('../imagens/dog01.jpeg');
     background-position: top center;
 }
 
