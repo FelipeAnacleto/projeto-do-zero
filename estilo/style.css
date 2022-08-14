@@ -5,6 +5,15 @@
 :root {
     --font1: Arial, Helvetica, sans-serif;
     --font2: 'Passion One', cursive;
+    --cor1: #3F0259;
+    --cor2: #6E038C;
+    --cor3: #AB04D9;
+    --cor4: #0D0D0D;
+    --cor5: #E80000;
+    --cor6: #042940;
+    --cor7: #005C53;
+    --cor8: #67aeb8;
+
 }
 
 * {
@@ -15,12 +24,12 @@
 
 html, body {
     min-height: 100vh;
-    background-color: rgb(0, 0, 0);
+    background-color: var(--cor4);
     font-family: var(--font1);
 }
 
 header {
-    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to left, var(--cor3), var(--cor2), var(--cor1), var(--cor4));
     color: white;
     text-align: center;
 }
@@ -41,7 +50,7 @@ header > p {
 }
 
 #atenção {
-    color: #D91604;
+    color: var(--cor5);
 }
 
 .links {
@@ -53,7 +62,7 @@ header > p {
 
 .felipe > a {
     color: #D6D58E;
-    background-image: linear-gradient(to top, #042940, #005C53);
+    background-image: linear-gradient(to top, var(--cor6), var(--cor7));
     text-decoration: none;
     font-weight: bolder;
     border-radius: 20px;
@@ -67,7 +76,7 @@ header > p {
 
 nav a {
     color: white;
-    background-color: rgb(158, 62, 187);
+    background-color: var(--cor2);
     text-decoration: none;
     font-weight: bolder;
     margin-left: 5px ;
@@ -77,7 +86,7 @@ nav a {
 
 nav a:hover, footer a:hover {
     text-decoration: underline;
-    background-color: rgb(103, 174, 184);
+    background-color: var(--cor8);
     transition-duration: 0.5s;
 }
 
@@ -96,7 +105,7 @@ section > p {
 
 section.normal {
     background-color: white;
-    color: black;
+    color: var(--cor4);
 
 }
 
@@ -111,7 +120,7 @@ section.imagem {
 section.imagem > p {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.514);
-    text-shadow: 1px 1px 0px black;
+    text-shadow: 1px 1px 0px var(--cor4);
 }
 
 section#img01 {
@@ -130,7 +139,7 @@ section#img03 {
 }
 
 footer {
-    background-color: black;
+    background-color: var(--cor4);
     color: white;
     padding: 20px;
     text-align: center;  
